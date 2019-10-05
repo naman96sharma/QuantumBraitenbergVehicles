@@ -111,7 +111,7 @@ public class Vehicle{
 	}
 
 	private void changePosition(){
-		double thetaNew = (position.theta() + (R*(wR - wL)/(2*d))%(2*Math.PI))%(2*Math.PI);//original: theta = theta + R*(wR - wL)/(2*d);
+		double thetaNew = (position.theta() + (R*(wR - wL)/(2*d))%(2*Math.PI))%(2*Math.PI);
 
 	//continuous Canvas
 
